@@ -1,3 +1,9 @@
+# revision 24114
+# category Package
+# catalog-ctan /macros/latex/contrib/fontspec
+# catalog-date 2011-09-18 12:56:12 +0200
+# catalog-license lppl1.3
+# catalog-version v2.2a
 Name:		texlive-fontspec
 Version:	v2.2a
 Release:	1
@@ -85,6 +91,7 @@ packages from the LaTeX 3 development team.
 %doc %{_texmfdistdir}/source/latex/fontspec/testsuite/X-new-font-feature.ltx
 %doc %{_texmfdistdir}/source/latex/fontspec/testsuite/testsuite-listing.tex
 %doc %{_texmfdistdir}/source/latex/fontspec/testsuite/testsuite.cls
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -95,3 +102,5 @@ packages from the LaTeX 3 development team.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
