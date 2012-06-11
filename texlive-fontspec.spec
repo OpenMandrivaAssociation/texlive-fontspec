@@ -1,12 +1,12 @@
-# revision 24114
+# revision 26230
 # category Package
 # catalog-ctan /macros/latex/contrib/fontspec
-# catalog-date 2011-09-18 12:56:12 +0200
+# catalog-date 2012-05-06 11:43:12 +0200
 # catalog-license lppl1.3
-# catalog-version v2.2a
+# catalog-version v2.2b
 Name:		texlive-fontspec
-Version:	v2.2a
-Release:	2
+Version:	v2.2b
+Release:	1
 Summary:	Advanced font selection in XeLaTeX and LuaLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fontspec
@@ -26,7 +26,7 @@ Fontspec is a package for XeLaTeX and LuaLaTeX. It provides an
 automatic and unified interface to feature-rich AAT and
 OpenType fonts through the NFSS in LaTeX running on XeTeX or
 LuaTeX engines. The package requires the l3kernel and xparse
-packages from the LaTeX 3 development team.
+bundles from the LaTeX 3 development team.
 
 %post
     %{_sbindir}/texlive.post
@@ -53,6 +53,7 @@ packages from the LaTeX 3 development team.
 %doc %{_texmfdistdir}/source/latex/fontspec/fontspec.dtx
 %doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-alias-feature-option.ltx
 %doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-alias-feature.ltx
+%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-autofake.ltx
 %doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-autoscaling.ltx
 %doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-charactervariant.ltx
 %doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-colour-basic.ltx
