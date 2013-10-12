@@ -1,11 +1,11 @@
-# revision 26230
+# revision 30618
 # category Package
 # catalog-ctan /macros/latex/contrib/fontspec
-# catalog-date 2012-05-06 11:43:12 +0200
+# catalog-date 2013-03-17 00:29:52 +0100
 # catalog-license lppl1.3
-# catalog-version v2.2b
+# catalog-version v2.3a
 Name:		texlive-fontspec
-Version:	v2.2b
+Version:	v2.3a
 Release:	1
 Summary:	Advanced font selection in XeLaTeX and LuaLaTeX
 Group:		Publishing
@@ -19,6 +19,8 @@ BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 Requires:	texlive-kastrup
+Requires:	texlive-l3kernel
+Requires:	texlive-l3packages
 Requires:	texlive-lm
 
 %description
@@ -92,21 +94,3 @@ bundles from the LaTeX 3 development team.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> v2.2b-1
-+ Revision: 804619
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> v2.2a-2
-+ Revision: 752045
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> v2.2a-1
-+ Revision: 718485
-- texlive-fontspec
-- texlive-fontspec
-- texlive-fontspec
-- texlive-fontspec
-
