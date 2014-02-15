@@ -1,12 +1,12 @@
-# revision 30618
+# revision 32416
 # category Package
 # catalog-ctan /macros/latex/contrib/fontspec
-# catalog-date 2013-03-17 00:29:52 +0100
+# catalog-date 2013-05-26 19:01:07 +0200
 # catalog-license lppl1.3
-# catalog-version v2.3a
+# catalog-version v2.3c
 Name:		texlive-fontspec
-Version:	v2.3a
-Release:	5
+Version:	v2.3c
+Release:	1
 Summary:	Advanced font selection in XeLaTeX and LuaLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fontspec
@@ -18,6 +18,7 @@ BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
+Requires:	texlive-iftex
 Requires:	texlive-kastrup
 Requires:	texlive-l3kernel
 Requires:	texlive-l3packages
