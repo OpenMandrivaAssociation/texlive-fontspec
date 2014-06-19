@@ -1,12 +1,12 @@
-# revision 32416
+# revision 34269
 # category Package
 # catalog-ctan /macros/latex/contrib/fontspec
-# catalog-date 2013-05-26 19:01:07 +0200
+# catalog-date 2014-06-07 20:47:53 +0200
 # catalog-license lppl1.3
-# catalog-version v2.3c
+# catalog-version v2.4
 Name:		texlive-fontspec
-Version:	v2.3c
-Release:	2
+Version:	v2.40
+Release:	1
 Summary:	Advanced font selection in XeLaTeX and LuaLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fontspec
@@ -49,42 +49,10 @@ bundles from the LaTeX 3 development team.
 %{_texmfdistdir}/tex/latex/fontspec/fontspec.sty
 %doc %{_texmfdistdir}/doc/latex/fontspec/README
 %doc %{_texmfdistdir}/doc/latex/fontspec/fontspec-example.tex
-%doc %{_texmfdistdir}/doc/latex/fontspec/fontspec-testsuite.pdf
 %doc %{_texmfdistdir}/doc/latex/fontspec/fontspec.pdf
 #- source
 %doc %{_texmfdistdir}/source/latex/fontspec/Makefile
 %doc %{_texmfdistdir}/source/latex/fontspec/fontspec.dtx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-alias-feature-option.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-alias-feature.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-autofake.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-autoscaling.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-charactervariant.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-colour-basic.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-colour-clash.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-colour-opacity.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-feat-numbers.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-font-selection-bold.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-hyphenchar.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-inner-emph.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-loading-basic.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-loading-external-underdefined.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-loading-nested-scfeat.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-loading-scale.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-loading-sizefeatures.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-optical-sizes.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-ot-cvxx-2.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-ot-cvxx.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-ot-ss06.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-programmers-interface.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-verb-fancyvrb.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-verb-listings.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-verb-moreverb.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-verb-plain.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-verb-verbatim.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/F-wordspace.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/X-new-font-feature.ltx
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/testsuite-listing.tex
-%doc %{_texmfdistdir}/source/latex/fontspec/testsuite/testsuite.cls
 
 #-----------------------------------------------------------------------
 %prep
