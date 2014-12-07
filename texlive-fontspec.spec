@@ -6,7 +6,7 @@
 # catalog-version v2.4
 Name:		texlive-fontspec
 Version:	v2.40
-Release:	2
+Release:	3
 Summary:	Advanced font selection in XeLaTeX and LuaLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fontspec
