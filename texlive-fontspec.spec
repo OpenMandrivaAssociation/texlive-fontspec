@@ -1,12 +1,6 @@
-# revision 34269
-# category Package
-# catalog-ctan /macros/latex/contrib/fontspec
-# catalog-date 2014-06-07 20:47:53 +0200
-# catalog-license lppl1.3
-# catalog-version v2.4
 Name:		texlive-fontspec
-Version:	v2.40
-Release:	4
+Version:	2.6g
+Release:	1
 Summary:	Advanced font selection in XeLaTeX and LuaLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fontspec
@@ -41,18 +35,10 @@ bundles from the LaTeX 3 development team.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/fontspec/fontspec-luatex.sty
-%{_texmfdistdir}/tex/latex/fontspec/fontspec-patches.sty
-%{_texmfdistdir}/tex/latex/fontspec/fontspec-xetex.sty
-%{_texmfdistdir}/tex/latex/fontspec/fontspec.cfg
-%{_texmfdistdir}/tex/latex/fontspec/fontspec.lua
-%{_texmfdistdir}/tex/latex/fontspec/fontspec.sty
-%doc %{_texmfdistdir}/doc/latex/fontspec/README
-%doc %{_texmfdistdir}/doc/latex/fontspec/fontspec-example.tex
-%doc %{_texmfdistdir}/doc/latex/fontspec/fontspec.pdf
+%{_texmfdistdir}/tex/latex/fontspec
+%doc %{_texmfdistdir}/doc/latex/fontspec
 #- source
-%doc %{_texmfdistdir}/source/latex/fontspec/Makefile
-%doc %{_texmfdistdir}/source/latex/fontspec/fontspec.dtx
+%doc %{_texmfdistdir}/source/latex/fontspec
 
 #-----------------------------------------------------------------------
 %prep
