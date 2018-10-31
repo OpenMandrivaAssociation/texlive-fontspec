@@ -1,6 +1,6 @@
 Name:		texlive-fontspec
 Version:	2.6h
-Release:	1
+Release:	2
 Summary:	Advanced font selection in XeLaTeX and LuaLaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fontspec
