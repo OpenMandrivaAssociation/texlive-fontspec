@@ -1,5 +1,5 @@
 Name:		texlive-fontspec
-Version:	69880
+Version:	71237
 Release:	1
 Summary:	Advanced font selection in XeLaTeX and LuaLaTeX
 Group:		Publishing
