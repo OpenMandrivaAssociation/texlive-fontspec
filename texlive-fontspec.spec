@@ -3,7 +3,7 @@ Version:	71237
 Release:	1
 Summary:	Advanced font selection in XeLaTeX and LuaLaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fontspec
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/fontspec
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fontspec.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fontspec.doc.r%{version}.tar.xz
