@@ -1,9 +1,10 @@
 %global tl_name fontspec
-%global tl_revision 77682
+%global tl_revision 79934
+%global tl_version 2.9h
 
 Name:		texlive-%{tl_name}
 Epoch:		1
-Version:	2.9g
+Version:	%{tl_version}
 Release:	%{tl_revision}.1
 Summary:	Advanced font selection in XeLaTeX and LuaLaTeX
 Group:		Publishing
@@ -20,7 +21,7 @@ Requires:	texlive(l3kernel)
 Requires:	texlive(l3packages)
 Requires:	texlive(lm)
 Requires:	texlive(xunicode)
-Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}) = %{version}
 
 %description
 Fontspec is a package for XeLaTeX and LuaLaTeX. It provides an automatic
